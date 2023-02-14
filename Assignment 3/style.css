@@ -1,0 +1,35 @@
+h1 {
+    color:black;
+    background-color: brown;
+}
+h2 {
+    color: black;
+    background-color: brown;
+}
+h3 {
+    color: black;
+    background-color: brown;
+}
+h4 {
+    color: black;
+}
+.spanstyle {
+    color: purple;
+}
+#divexample {
+    color: white;
+    background-color: brown;
+}
+a {
+    color:red;
+    text-decoration:none;
+}
+
+a:visited {
+    color:green;
+}
+
+a:hover {
+    color:yellow;
+    text-decoration: underline;
+}
