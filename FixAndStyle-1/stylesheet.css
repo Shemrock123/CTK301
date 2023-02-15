@@ -1,0 +1,36 @@
+h1 {
+    color: white;
+}
+#divexample {
+    background-color: plum;
+}
+.spanstyle {
+    color: orange;
+}
+h2 {
+    color: blue;
+}
+h3 {
+    color:black;
+    background-color: yellow;
+}
+h4 {
+    color: yellow;
+    background-color: green;
+}
+h5 {
+    color:red;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+#part1 {
+    color: red;
+}
+#part2 {
+    background-color: greenyellow;
+}
+#part3 {
+    background-color: yellow;
+}
