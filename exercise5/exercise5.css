@@ -1,0 +1,23 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    border: 1px solid black;
+    width: 200px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    background-color: darkred;
+}
+nav li a:hover {
+    background-color: red;
+}
