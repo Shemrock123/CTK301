@@ -1,0 +1,142 @@
+body {
+background-image: url(grey-background.jpg);
+}
+#wrapper {
+    width:960px;
+    border: 5px solid blue;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: white;
+}
+header {
+    grid-column: span 3;
+    background-image: linear-gradient(to bottom, #007cbf, #0075b3, #006da8, #00669c, #015f91);
+    padding-left: 10px;
+    margin: 0px;
+}
+h1 {
+    font-weight: normal;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 a {
+    color: lightblue;
+    text-decoration: none;
+}
+nav {
+    grid-column: span 3;
+    background-color: blue;
+}
+nav ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+}
+nav li {
+    width: 317px;
+    height: 40px;
+    display: inline-block;
+}
+nav li a {
+    background-image: linear-gradient(to bottom, #007cbf, #0075b3, #006da8, #00669c, #015f91 ) ;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    text-align: center;
+    color: lightblue;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-weight: bold;
+}
+nav li a:hover {
+    background-color: rgb(20, 92, 193);
+    color: white;
+}
+main {
+    text-align: justify;
+    background-color: lightblue;
+}
+.WelcomePage {
+    grid-column: span 1;
+}
+main p {
+    font-weight: bold;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+aside a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+aside a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+main h2 {
+    border-bottom: 2.5px solid blue;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: blue;
+}
+aside {
+    text-align: justify;
+    margin-left:25px;
+    margin-right: 25px;
+}
+aside h2 {
+    color: blue;
+    border-bottom: 2.5px solid blue;
+    padding-bottom: 10px;
+}
+.gallery {
+    width: 245px;
+}
+.part3 {
+    background-color: white;
+    text-align: justify;
+   
+}
+.text {
+    margin-right: 25px;
+}
+.h2part3 {
+    color: blue;
+    border-bottom: 2.5px solid blue;
+    padding-bottom: 10px;
+    margin-right: 25px;
+}
+.Welcome {
+    grid-column: span 2;
+}
+.AboutPage {
+    grid-column: span 2;
+}
+.blackhole {
+    float: left;
+border: 2.5px solid blue;
+margin-right: 25px;
+}
+.Rocks {
+    float: right;
+    border: 2.5px solid blue;
+    margin-left:25px;
+    margin-bottom: 25px;
+}
+.sidetext {
+    grid-column: span 1;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+footer {
+    background-color:red ;
+    border-top: 5px solid blue;
+    grid-column: span 3;
+    padding: 5px;
+}
