@@ -116,3 +116,12 @@ footer {
     border-top: 5px solid maroon;
     background-color: maroon;
 }
+#myCarousel {
+    align-content: center;
+}
+  
+#myCarousel .f-carousel__slide {
+    text-align: center;
+    padding: 15px;
+    background: #eee;
+}

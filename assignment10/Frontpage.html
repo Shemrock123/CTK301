@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Shemar's Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
     <link href="frontpage.css" rel="stylesheet" type="text/css">
   </head>
   <div id="wrapper">
@@ -25,17 +27,25 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quae illum vero temporibus, voluptatibus magni dolorum cumque inventore! Fuga temporibus ut aliquam earum voluptatibus sapiente dolore pariatur, magnam minus inventore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, ipsum sapiente quas molestiae laudantium eveniet sint illo nemo, officiis distinctio dolor velit ratione officia aut numquam ullam. Laborum, esse nobis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit molestias odit quaerat cum placeat accusamus in pariatur, harum repudiandae illum magni, est itaque at dolorum sint minima similique aliquid aliquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro non, dicta illo quisquam quasi distinctio dolor? Nostrum, doloribus quis explicabo recusandae natus atque architecto nihil delectus. Totam ad dolorem consequatur!</p>
     </main>
     <aside>
-    <img class="FirstPiece" src="IMG_0512.JPG" alt="image">
-    <img class="SecondPiece" src="IMG_0515.JPG" alt="image">
-    <img class="ThirdPiece" src="IMG_0920.jpeg" alt="image">
-    <img class="FourthPiece" src="IMG_0886.jpeg" alt="image">
+      <div id="myCarousel" class="f-carousel">
+        <div class="f-carousel__slide"><img src="IMG_0512.JPG"></div>
+        <div class="f-carousel__slide"><img src="IMG_0515.JPG"></div>
+        <div class="f-carousel__slide"><img src="IMG_0920.jpeg"></div>
+        <div class="f-carousel__slide"><img src="IMG_0886.jpeg"></div>
+    </div>
     </aside>
     <audio controls autobuffer autoplay >
         <source src="TestBeat.mp3" type="audio/mpeg">
       </audio>
+
     <footer>
         <p>INSERT CONTACT INFO</p>
     </footer>
+    <script>
+      const container = document.getElementById("myCarousel");
+      const options = { infinite: false };
+      new Carousel(container, options);
+  </script>
   </body>
   </div>
 </html>
