@@ -1,6 +1,4 @@
-img {
-    width: 200px;
-}
+
 body{
     background-image: url(download.jpg) ;
 }
@@ -19,7 +17,6 @@ header {
     background-color: maroon;
 }
 h1 {
-    font-family: 'Oswald', sans-serif;
     margin: 20px;
     color: #ccc;
   font-weight: bold;
@@ -75,35 +72,44 @@ main {
     border-bottom: 5px solid maroon;
     padding: 20px;
 }
+aside img {
+    
+    width: 100%;
+}
 .Portfolio {
     float: right;
     margin-left: 15px;
     border: 2.5px solid maroon;
     margin-bottom: 15px;
     margin-top: 15px;
+    width: 200px;
 }
 .FirstPiece {
     border: 2.5px solid maroon;
     margin-bottom: 15px;
     margin-top: 15px;
+    width: 100px;
 }
 .SecondPiece {
     border: 2.5px solid maroon;
     margin-bottom: 15px;
     margin-top: 15px;
     margin-left: 15px;
+    width: 100px;
 }
 .ThirdPiece {
     border: 2.5px solid maroon;
     margin-bottom: 15px;
     margin-top: 15px;
     margin-left: 15px;
+    width: 100px;
 }
 .FourthPiece {
     border: 2.5px solid maroon;
     margin-bottom: 15px;
     margin-top: 15px;
     margin-left: 15px;
+    width: 100px;
 }
 aside {
     grid-column: span 12;
@@ -115,6 +121,13 @@ footer {
     grid-column: span 12;
     border-top: 5px solid maroon;
     background-color: maroon;
+    font-size: 24px;
+    color: #ccc;
+    text-shadow: 2px 2px 2px #000;
+}
+footer a {
+    color: #ccc;
+    text-shadow: 2px 2px 2px #000;
 }
 #myCarousel {
     align-content: center;
